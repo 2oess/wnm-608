@@ -1,3 +1,3 @@
 # Zhuoyi Wei
 
-- https://2oesbag.com/aau/wnm_608/wei/index.html
+- https://2oess.github.io/wnm_608/zhuoyi.wei/index.html
