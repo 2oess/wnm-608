@@ -1,3 +1,3 @@
 # Zhuoyi Wei
 
-- https://2oesbag.com/wnm_608/zhuoyi.wei/home.html
+- https://2oesbag.com/wnm608/zhuoyi.wei/home.html
