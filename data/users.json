@@ -1,0 +1,33 @@
+[
+	{
+
+		"name":"Zhuoyi Wei",
+		"type":"Student",
+		"email":"kkog@art.edu",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Amy Yang",
+		"type":"Student",
+		"email":"iyuib1@art.edu",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Jenny",
+		"type":"Student",
+		"email":"xsdfc4@art.edu",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Lily",
+		"type":"Student",
+		"email":"kjds@art.edu",
+		"classes":[608,617,820]
+	},
+	{
+		"name":"Zoe",
+		"type":"Student",
+		"email":"zokdj@art.edu",
+		"classes":[608,617,820]
+	},
+]
