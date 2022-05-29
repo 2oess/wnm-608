@@ -1,0 +1,111 @@
+.carousel{
+    height: 70vh;
+    min-height: 30em;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.carousel .slide,
+.carousel .slides{
+    height: 100%;
+    width: 100%;
+  
+}
+.carousel .slides{
+	position:relative;
+}
+
+.carousel .slide{
+	position:absolute;
+	top:0px;
+	left:0px;
+    right: 0px;
+    display: flex;
+	align-items:center;
+	justify-content: center;
+    background-color: white;
+	z-index:1;
+	opacity:0;
+}
+
+.carousel .slide.moving{
+    transition:all 0.3s;
+}
+.carousel .slide.left,
+.carousel .slide.right,
+.carousel .slide.center{
+    opacity:1;
+}
+.carousel .slide.center{
+    transform: translateX(0);
+}
+.carousel .slide.left{
+    transform: translateX(-100%);
+}
+.carousel .slide.right{
+    transform: translateX(100%);
+}
+
+.carousel .controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+    z-index: 5;
+}
+
+.carousel [class*='control-']{
+	pointer-events:initial;
+}
+
+.carousel .control-left,
+.carousel .control-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding:1rem;
+    font-size:2em;
+    color:white;
+}
+
+.carousel .control-left{
+	left:2rem;
+}
+
+.carousel .control-right{
+	right:2rem;
+}
+
+.carousel .control-pagination{
+    display: flex;
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.carousel .control-dot{
+	padding:1rem;
+	font-size:2em;
+	line-height:1rem;
+    transition:all 0.3s;
+    position:relative;
+    transform:scale(1,1);
+}
+
+.carousel .control-dot.active{
+    transform:scale(1.5, 1.5);
+    color: white;
+}
+.carousel .control-dot,
+.carousel .control-left,
+.carousel .control-right{
+	cursor:pointer;
+}
+
